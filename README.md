@@ -10,3 +10,6 @@ Receive the data from the Node and is preprocessed to be sent to the cloud throu
 ### Node
 Retrieve the data from sensors and send through Lora to the Gateway.
 ![node](./diagrams/node.png)
+#### Electrical Power system
+Design reference: [Quetzal](https://github.com/Quetzal-1-CubeSat-Team/quetzal1-hardware/tree/master/EPS)
+![energy](./diagrams/energy.png)
