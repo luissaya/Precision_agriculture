@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=node_connections.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=node_connections.SchDoc|FileName=node_index.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=node_connections.SchDoc|FileName=node_mcu.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=node_connections.SchDoc|FileName=node_peripherals.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=node_connections.SchDoc|FileName=node_power.SchDoc|SheetNumber=5
