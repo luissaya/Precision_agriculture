@@ -1,8 +1,12 @@
 #folders
 untracked/
-docs/libeliumenvio/
+docs/datasheets/
+
+##pcb folders
 pcb/Reference-Quetzal-1/
-pcb/Reference_f2_smartcontroller_Final_July23/
-pcb/node/History/
 pcb/node/__Previews/
-pcb/__Previews/
+pcb/node/History/
+pcb/node/lib/
+pcb/node/Project\ Logs\ for\ node/
+pcb/node/__Previews/
+pcb/node/History/
