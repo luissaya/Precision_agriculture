@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=2
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -21,7 +21,7 @@ UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
-NameNetsHierarchically=0
+NameNetsHierarchically=1
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
 AutoCrossReferences=1
@@ -185,7 +185,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TLVIUKYM
 
 [Document9]
-DocumentPath=282836-4\TE_282836-4.PcbLib
+DocumentPath=lib\282836-4\TE_282836-4.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -199,10 +199,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=NQUGSGFQ
+DocumentUniqueId=
 
 [Document10]
-DocumentPath=CSP-USC16-TR\VALCON_CSP-USC16-TR.PcbLib
+DocumentPath=lib\CSP-USC16-TR\VALCON_CSP-USC16-TR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -216,10 +216,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UYCQGUHQ
+DocumentUniqueId=
 
 [Document11]
-DocumentPath=SMBJ7.0CA\DIOM4336X265N.PcbLib
+DocumentPath=lib\SMBJ7.0CA\DIOM4336X265N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -233,7 +233,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FUKNVYVB
+DocumentUniqueId=
 
 [Document12]
 DocumentPath=C:\Users\sayav\Documents\AltiumLL\SamacSys.PcbLib
@@ -253,7 +253,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MPRJBCLL
 
 [Document13]
-DocumentPath=ul_TPS63070RNMT\AltiumDesigner\TPS63070RNMT.PcbLib
+DocumentPath=lib\TPS63070RNMT\TPS63070RNMT.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -267,7 +267,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OTFCUBTU
+DocumentUniqueId=
 
 [Document14]
 DocumentPath=..\..\..\Altium\AltiumDesigner-Libraries-main\Footprint-Lib-PhilsLab.PcbLib
@@ -287,7 +287,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PJJBOUDJ
 
 [Document15]
-DocumentPath=282836-4\282836-4.SchLib
+DocumentPath=lib\282836-4\282836-4.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -301,10 +301,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=EPVUURWL
+DocumentUniqueId=
 
 [Document16]
-DocumentPath=CSP-USC16-TR\CSP-USC16-TR.SchLib
+DocumentPath=lib\CSP-USC16-TR\CSP-USC16-TR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -318,10 +318,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AHZVTYUW
+DocumentUniqueId=
 
 [Document17]
-DocumentPath=ul_TPS63070RNMT\AltiumDesigner\TPS63070RNMT.SchLib
+DocumentPath=lib\TPS63070RNMT\TPS63070RNMT.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -335,10 +335,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RDWXFKRK
+DocumentUniqueId=
 
 [Document18]
-DocumentPath=SMBJ7.0CA\SMBJ7.0CA.SchLib
+DocumentPath=lib\SMBJ7.0CA\SMBJ7.0CA.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -352,7 +352,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ZVDFCEMF
+DocumentUniqueId=
 
 [Document19]
 DocumentPath=C:\Users\sayav\Documents\AltiumLL\SamacSys.SchLib
@@ -610,24 +610,24 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=Autor
-Value=Luis Sayaverde Bravo
+Name=Rev
+Value=v1.01
 
 [Parameter2]
-Name=BoardTitle
-Value=Node
+Name=ProjectNumber
+Value=0012
 
 [Parameter3]
 Name=DocumentSize
 Value=A4
 
 [Parameter4]
-Name=ProjectNumber
-Value=0012
+Name=BoardTitle
+Value=Node
 
 [Parameter5]
-Name=Rev
-Value=v1.01
+Name=Autor
+Value=Luis Sayaverde Bravo
 
 [Configuration1]
 Name=Sources
@@ -1932,6 +1932,13 @@ ComponentDesignItemID40=TPS63070RNMT
 ComponentSymbolReference40=TPS63070RNMT
 ComponentUpdate40=1
 ComponentIsDeviceSheet40=0
+
+[NetInfos]
+Net1=NetName=4V2_P|NetColor=clBlack
+Net2=NetName=4V2_SOLAR_PANEL1_P|NetColor=clBlack
+Net3=NetName=4V2_SOLAR_PANEL2_P|NetColor=clBlack
+Net4=NetName=V_TEST|NetColor=clBlack
+Net5=NetName=V_TEST2|NetColor=clBlack
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
