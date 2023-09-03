@@ -36,7 +36,7 @@ Also this device can works independently using the WiFi interface to upload dire
 - LORA_1278_433MHz:
   - SMA Connector Receptacle
 
-## Electrical Power system
+## [Electrical Power system](../docs/EPS.md)
 ![energy](../diagrams/energy.png)  
 
 
